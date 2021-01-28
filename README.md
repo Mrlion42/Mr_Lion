@@ -1,1 +1,11 @@
-# Mr_Lion
+marks=int(input("Enter your marks :"))
+if (marks>=75)
+    print("your grade is A")
+elif (65<=marks<75)
+    print("your grade is B")
+elif (55<=marks<65)
+    print("your grade is C")
+elif (35<=marks<54)
+    print("your grade is S")
+else:
+    print("your grade is F")
